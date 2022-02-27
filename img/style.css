@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+}
+header{
+    border-bottom: 1px solid #2c2c2c;
+    background: #1817179e;
+    transition: 1s;
+}
+header:hover{
+    border-bottom: 1px solid #4e4e4e;
+    background: #181818a1;
+    transition: 1s;
+}
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    max-width: 20%;
+    flex-basis: 20%;
+}
+.logo img{
+    max-width: 250px;
+}
+nav{
+    max-width: 80%;
+    flex-basis: 80%;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    line-height: 55px;
+}
+nav ul li{
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+}
+h1{
+  
+    font-size: 40px;
+      color: #fff;
+    width: 570px;
+      
+    margin: auto;
+      
+    padding-top: 50px;
+      
+    padding-bottom: 10px;
+      
+    text-align: center;
+    }
+    .blue{color: blue;}
+    .red{
+        color: #fd5555;
+    }
+    .green{
+        color: seagreen;
+    }
+    .yellow{
+        color: rgb(206, 206, 7);
+    }
+.nil{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p{
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    max-width: 400px;
+    margin: auto;
+}
+.nam{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.blue{
+    color: blue;
+}
+.red{
+    color: seagreen;
+}
+.yellow {
+    color: #f5e307;
+}
+.green{
+    color: #04d7f9;
+}
+.dark{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.nil h2{
+    color: #cdcccc;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.nil p{
+    color: #cdcccc;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 50px;
+}
+.cir{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: seagreen;
+    margin-bottom: 50px;
+    width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 1s;
+}
+.cir:hover{
+    
+    background: rgb(33, 128, 74);
+    box-shadow: -1px 0px 10px -1px rgb(84, 85, 85);
+}
+.cir h2{
+    color: white;
+}
+
